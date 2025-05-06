@@ -6,13 +6,13 @@
 # 全般
 
 # ページ概要
-title: CoffeeSystem Docs
-description: This is the Documents of CoffeeSystem, assets for the VRChat sold on the Booth.
+title: CoffeeRoasterSet Docs
+description: This is the Documents of CoffeeRoasterSet, gimmic assets for the VRChat sold on the Booth.
 theme: just-the-docs
 
 # 掲載ページのURL指定
 url: https://denkihitsujikobo.github.io
-repository: DenkiHitsujiKobo/CoffeeSystem-Docs
+repository: DenkiHitsujiKobo/CoffeeSystem-Docs  # TODO: あとでリポジトリ名を修正
 
 # 各ページのパーマリンク生成方法を指定
 permalink: pretty

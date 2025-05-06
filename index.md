@@ -6,25 +6,32 @@ description: "トップページ"
 permalink: /
 ---
 
-# CoffeeSystem
+# CoffeeRoasterSet
 
-『CoffeeSystem』はワールドで豆の焙煎とコーヒー淹れができる、VRChat専用の有償アセットです。  
-本ページでアセットの使用方法をご覧いただけます。
+『CoffeeRoasterSet』は手作業による豆の焙煎からコーヒーが淹れられるギミックを備えた、VRChatワールド専用の有償アセットです。  
+本ページでギミックの使用方法をご覧いただけます。
+
 
 ## 販売ページ
 
-CoffeeSystemはこちらの[Boothアイテム] [Booth item page]から購入いただけます。
+CoffeeRoasterSetはこちらの[Booth販売ページ] [Booth item page]から購入いただけます。
+ダウンロードしたUnityPackageをご自身のUnity Projectへインポートしてご利用ください。
+
 
 ## 使いかた
 
-あらかじめ用意されたPrefabをワールドに設置するだけでCoffeeSystemの利用が可能です。  
-[詳細はこちら] [prefab description]
+あらかじめ用意されたPrefabをワールドに設置するだけで、CoffeeRoasterSetのギミックをご利用いただけます。  
+[ギミックの利用方法はこちら] [usage]
+
 
 ## 応用
 
-同梱のUdonコンポーネントを設定することで、器具の見た目を自由に変えることができます。  
+同梱のUdonコンポーネントを利用することで、ご自身で用意した3DモデルをCoffeeRoasterSetのギミックで使うことが可能です。  
+[詳細はこちら] [applications]
 
 
 
 [Booth item page]: https://cultnhut.booth.pm/
-[prefab description]: /docs/prefabs/
+[usage]: /docs/usage
+[applications]: /docs/applications
+
