@@ -1,33 +1,34 @@
 
 # 環境構築 (Windows)
 
-本リポジトリではGitHub Pagesによってドキュメントを公開しています。  
-GitHub Pagesを利用してドキュメントを書くにあたり、JekyllというWebサイト生成ツールを利用します。  
-手元のPC上でWebページのプレビュー等ができるよう、必要なツール類の導入方法をここで説明します。
+本リポジトリではGitHub Pagesによってアセット説明書ページを公開しています。  
+説明書を書くにあたって必要なツール類の導入方法をここで説明します。
 
-
-
-## 目次
-
-- [想定環境](#想定環境)
-- [Git for Windowsのインストール](#git-for-windowsのインストール)
-- [Rubyのインストール](#rubyのインストール)
-
-
+最終更新：2025-05-xx
 
 ## 想定環境
 
-この環境構築ドキュメントを書くにあたっては、以下の利用環境を想定しています。
+この環境構築ドキュメントの執筆時点では、以下の環境で導入テストをしています。
 
 - Windows 11
 - Git for Windows 2.49.0
 - Ruby 3.4.3
 
+## 目次
 
+- [Git for Windowsの導入](#git-for-windowsの導入)
+- [Jekyllの導入](#jekyllの導入) (任意)
+
+
+
+<br>
+
+---
+---
 
 ## Git for Windowsの導入
 
-このリポジトリを扱えるようにするため、UNIXシェルやその上で動作するgitなどを提供するツールセット「Git for Windows」を利用します。
+このリポジトリを扱えるようにするため、UNIXシェルやgitなどを提供するツールセット「Git for Windows」を利用します。
 
 > インストール参考記事：https://qiita.com/suke_masa/items/404f06309bb32ca6c9c5
 
@@ -47,9 +48,15 @@ https://github.com/git-for-windows/git/releases/
 
 
 
-## Rubyの導入
+<br>
 
-Jekyllの利用に必要なRubyの実行環境を用意します。
+---
+---
+
+## Jekyllの導入
+
+GitHub PagesではWebサイト生成ツール「Jekyll」が利用でき、本リポジトリでもこれを使って説明書ページを作成しています。  
+実際に表示されるWebページを手元のPC上で確認したい場合は、Jekyllの実行環境が必要です。
 
 > インストール参考記事：
 
@@ -59,6 +66,9 @@ Jekyllの利用に必要なRubyの実行環境を用意します。
 https://rubyinstaller.org/downloads/  
 執筆時点での最新版は`Ruby+Devkit 3.4.3-1 (x64)`です。
 
+DLページ上で強調表示されているのは若干古いRubyバージョンです。(執筆時点では`Ruby+Devkit 3.3.8-1 (x64)`)  
+このあとのJekyll導入が失敗する場合があるので、インストーラのバージョンにはご注意ください。
+
 ### 2. Rubyをインストール
 
 にょえ
@@ -66,4 +76,7 @@ https://rubyinstaller.org/downloads/
 ### 3. ライブラリ導入
 
 にょえ
+
+
+
 

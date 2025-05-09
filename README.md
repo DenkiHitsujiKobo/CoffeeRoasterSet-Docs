@@ -1,7 +1,7 @@
 
 # CoffeeRoasterSet-Docs
 
-ここは、VRChat専用の有償アセット「CoffeeRoasterSet」のドキュメントページ用リポジトリです。
+ここは、VRChat専用の有償アセット「CoffeeRoasterSet」の説明書ページ用リポジトリです。
 
 ## 環境構築について
 
