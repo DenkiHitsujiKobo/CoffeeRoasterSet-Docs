@@ -8,7 +8,7 @@ permalink: /
 
 # CoffeeRoasterSet
 
-『CoffeeRoasterSet』は手作業による豆の焙煎からコーヒーが淹れられるギミックを備えた、VRChatワールド専用の有償アセットです。  
+『CoffeeRoasterSet』はコーヒー豆の手焙煎ができるギミックを備えた、VRChatワールド専用の有償アセットです。  
 本ページでギミックの使用方法をご覧いただけます。
 
 

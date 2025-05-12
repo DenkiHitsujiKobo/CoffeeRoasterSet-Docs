@@ -8,7 +8,12 @@ nav_order: 10
 
 コーヒー豆の焙煎機一式をまとめたPrefabです。
 
-使い方については、同梱されている以下のPrefabをご覧ください。
+WIP: ここに画像を載せる
+
+
+## 使いかた
+
+Prefabに同梱されている各アイテムの説明をご覧ください。
 
 - [AlcoholLamp]
 - [RoasterBase]
