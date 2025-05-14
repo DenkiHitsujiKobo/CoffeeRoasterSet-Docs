@@ -39,11 +39,8 @@ flowchart LR
 
 継承元スクリプトの機能を引き継いでいるため、関係する機能をあわせて記載しています。
 
-### [ContentHandler]共通
+### [ContentHandler]と共通する機能
 
-- 本コンポーネントと同時に以下のコンポーネントが必要です。
-  - Collider系コンポーネント
-  - RigidBody (`Use Gravity`オフ、`Is Kinematic`オン)
 - [NoneSyncPickupProxy]を介してUseされると、中身をパーティクルとして出すことができます。
   - 再度UseすることでパーティクルのON/OFFを切り替えます。
   - 中身が入っていない場合、パーティクルは出せません。
@@ -52,13 +49,18 @@ flowchart LR
   - 受け取れる中身の種類や挙動は、後述の設定によって決まります。
   - 中身を受け取るときに、その種類に応じた効果音が[ContentSoundHandler]によって再生されます。
 
-### [IHeatableContentHandler]共通
+### [IHeatableContentHandler]と共通する機能
 
 - 点火している[HeatSource]のCollider判定へ入ると、加熱されていることを知らせるイベントを受け取ります。
   - 判定に入ってから点火する場合・点火してから判定に入る場合のいずれでも反応します。
 
-### 本コンポーネント特有
+### 本コンポーネント特有の機能
 
+- 本コンポーネントと同時に以下のコンポーネントが必要です。
+  - Collider系コンポーネント
+  - RigidBody (`Use Gravity`オフ、`Is Kinematic`オン)
+  - AudioSource [^1]
+    - VRCSpatialAudioSource (任意)
 - 中身が生の豆である場合、かつ加熱されている間は焙煎が行えます。
   - 焙煎できる状態になると、効果音と演出パーティクルが動作します。
 - 本コンポーネントに紐づいた[HandyRoasterHandle]をピックアップすると豆の焙煎が進みます。
@@ -68,15 +70,16 @@ flowchart LR
   - 中身の量は、焙煎の前後でそのまま引き継がれます。
 
 
+
 ## 設定項目
 
 共通の設定については[ContentHandler]の説明も合わせてご参照ください。
 
 | Components | 説明 |
 | ---- | ---- |
-| nyoe | にょえ |
-| nyoe | にょえ |
-| nyoe | にょえ |
+| Handle | にょえ |
+| Pop Audio | にょえ |
+| Effects | にょえ |
 
 | Settings | 説明 |
 | ---- | ---- |
@@ -86,6 +89,12 @@ flowchart LR
 ## 仕様詳細
 
 - にょえ
+
+その他の仕様詳細については、継承元スクリプトの各説明も合わせてご参照ください。
+
+---
+
+[^1]: 設定項目の`Components/Pop Audio`に設定されれば、別オブジェクトに付与されていても構いません。
 
 
 

@@ -14,7 +14,7 @@ permalink: /
 
 ## 販売ページ
 
-CoffeeRoasterSetはこちらの[Booth販売ページ] [Booth item page]から購入いただけます。
+CoffeeRoasterSetはこちらの[Booth販売ページ] [Booth item page]からご購入いただけます。
 ダウンロードしたUnityPackageをご自身のUnity Projectへインポートしてご利用ください。
 
 
@@ -26,7 +26,7 @@ CoffeeRoasterSetはこちらの[Booth販売ページ] [Booth item page]から購
 
 ## 応用
 
-同梱のUdonコンポーネントを利用することで、ご自身で用意した3DモデルをCoffeeRoasterSetのギミックで使うことが可能です。  
+同梱のUdonコンポーネントを利用することで、ご自身で用意した3DモデルをCoffeeRoasterSetのギミックでお使いいただくことが可能です。  
 [詳細はこちら] [applications]
 
 

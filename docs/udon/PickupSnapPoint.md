@@ -7,25 +7,44 @@ nav_order: 10
 # PickupSnapPoint
 
 Pickupオブジェクトを手放したとき、その置かれた位置を補正するためのコンポーネントです。  
-[PickupSnapHandler]と組み合わせて使われます。
+[PickupSnapHandler]と連携して使います。
 
-## 概要
+```mermaid
+flowchart LR
+    accTitle: class relationship
+    accDescr: PickupSnapPoint inherits UdonSharpBehaviour, and depends to PickupSnapHandler.
 
-[PickupSnapHandler]の付与されたPickupオブジェクトが、本コンポーネントの位置へテレポートすることで位置の補正を行います。
+    point("<u>**PickupSnapPoint**</u>")
+    behaviour("UdonSharpBehaviour")
+    snap(["PickupSnapHandler"])
 
-例えば本コンポーネントを収納棚の要所に設定することで、おおよその位置でオブジェクトを手放してもきれいに整列させる、といった使いかたが可能です。
+    behaviour -->|継承| point
+    point <-.->|依存| snap
+```
+
+### 関連コンポーネント
+
+- [PickupSnapHandler]
+
+---
+
+## 機能について
+
+- 本コンポーネントと同時に以下のコンポーネントが必要です。
+  - Collider系コンポーネント(`Is Trigger`オン)
+- [PickupSnapHandler]がCollider判定に入るとテレポート先を知らせます。
+  - その状態でPickupオブジェクトが手放されると、テレポート先へ移動します。
+
 
 ## 設定項目
 
 | Settings | 説明 |
 | ---- | ---- |
-| `Snap ID` | スナップ対象となるIDを設定します。<br>一致するIDを持った[PickupSnapHandler]のみがスナップできます。<br>ただし`SnapID`が設定されていない場合には、全ての[PickupShapHandler]がスナップします。 |
+| Snap ID | スナップ対象となるIDを設定します。<br>一致するIDを持った[PickupSnapHandler]のみがスナップできます。<br>ただし`SnapID`が設定されていない場合には、全ての[PickupSnapHandler]がスナップします。 |
+
 
 ## 仕様詳細
 
-- 本コンポーネントと同時に以下のコンポーネントが必要です。
-  - Collider系コンポーネント(Trigger設定オン)
-- [PickupSnapHandler]がCollider判定に入ると、`OnTriggerEnter`イベントが働くことでテレポート先を通知します。
 - [PickupSnapHandler]のテレポート先は、本コンポーネントが付与されているGameObjectのTransformと同じ位置です。設置する場所にはご注意ください。
 
 

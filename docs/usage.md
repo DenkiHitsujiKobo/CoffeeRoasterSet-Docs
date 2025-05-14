@@ -107,7 +107,7 @@ WIP: 缶に入った焙煎豆の画像
 [CoffeeCoolerSet]: /docs/prefabs/CoffeeCoolerSet
 [Colander]: /docs/prefabs/Colander
 [JuteBag]: /docs/prefabs/JuteBag
-[RoasterPickup]: /docs/prefabs/RosterPickup
+[RoasterPickup]: /docs/prefabs/RoasterPickup
 [RoasterSet]: /docs/prefabs/RoasterSet
 
 [HandyRoaster]: /docs/udon/HandyRoaster
