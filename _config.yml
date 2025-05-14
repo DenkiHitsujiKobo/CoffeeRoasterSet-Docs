@@ -38,7 +38,7 @@ aux_links_new_tab: true
 nav_enabled: true
 
 # カラーテーマ
-color_scheme: light
+color_scheme: green
 
 # フキダシの色指定
 callouts_level: quiet # or loud
