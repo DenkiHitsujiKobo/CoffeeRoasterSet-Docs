@@ -91,7 +91,7 @@ search:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.6"
+  version: "11.6.0"
 
 # ページ構成に含めないファイルの指定
 exclude:
