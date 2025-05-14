@@ -6,20 +6,49 @@ nav_order: 7
 
 # INoneSyncPickupEntity
 
-Pickupオブジェクトについて、VRCObjectSyncによる位置の同期とUdonSynced変数のManual同期とを両立するための抽象クラスです。  
-[NoneSyncPickupProxy]と組み合わせて使われます。
+Pickupオブジェクトにおいて、「VRCObjectSyncによる位置の同期」と「UdonSynced変数のManual同期」とを両立するための抽象クラスです。  
+[NoneSyncPickupProxy]に紐づけて使います。
+
+```mermaid
+flowchart LR
+    accTitle: class relationship
+    accDescr: INoneSyncPickupEntity inherits UdonSharpBehaviour, and is inherited by ContentHandler and HeatSource.
+
+    entity("<u>**INoneSyncPickupEntity**</u>")
+    behaviour("UdonSharpBehaviour")
+    handler("ContentHandler")
+    heat("HeatSource")
+    proxy(["NoneSyncPickupProxy"])
+    
+    behaviour -->|継承| entity
+    entity -->|継承| handler
+    entity -->|継承| heat
+    proxy <-.->|依存| entity
+```
+
+### 関連コンポーネント
+
+- [NoneSyncPickupProxy]
+- [ContentHandler]
+- [HeatSource]
+
+---
 
 ## 概要
 
-VRCObjectSyncは、UdonBehaviourの同期モードでいえばContinuousに相当する機能を持ちます。そのため、Manual同期したいUdonBehaviourとVRCObjectSyncを同じオブジェクトへ付与すると変数の同期に不都合が生じる場合があり、推奨されません。
+VRCObjectSyncは、UdonBehaviourの同期モードでContinuousに相当する機能を持ちます。  
+そのため、Manual同期したいUdonBehaviourとVRCObjectSyncを同じオブジェクトへ付与すると変数の同期に不都合が生じる場合があり、推奨されません。
 
-本アセットではこの不都合を解決するため、[NoneSyncPickupProxy]が本スクリプトの関数をローカルイベントとして呼び出すことで機能の両立を図っています。
+本アセットではこれを解決するため、「Pickupイベントの呼び出し」と「変数の同期を含むメイン機能」とを別スクリプトに分割することで機能の両立を図っています。  
+INoneSyncPickupEntityはメイン機能を実装するための抽象クラスです。
 
-## 仕様
 
-- 本スクリプトは抽象クラスとして定義しているため、コンポーネントとしてGameObjectへ付与することはできません。継承先のクラスをご利用ください。
+## 機能について
 
+- このUdonSharpスクリプトは抽象クラスのため、コンポーネントとしてGameObjectへ付与することはできません。
+- [NoneSyncPickupProxy]との紐づけには、これを継承した派生コンポーネントを組み合わせてご利用ください。
 
 
 [NoneSyncPickupProxy]: /docs/udon/NoneSyncPickupProxy
-
+[ContentHandler]: /docs/udon/ContentHandler
+[HeatSource]: /docs/udon/HeatSource
