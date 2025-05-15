@@ -16,15 +16,18 @@ flowchart LR
 
     heat("<u>**HeatSource**</u>")
     entity("INoneSyncPickupEntity")
+    proxy(["NoneSyncPickupProxy"])
     heatable(["IHeatableContentHandler"])
 
     entity -->|継承| heat
+    entity <-.->|依存| proxy
     heat <-.->|依存| heatable
 ```
 
 ### 関連コンポーネント
 
 - [INoneSyncPickupEntity]
+  - [NoneSyncPickupProxy]
 - [IHeatableContentHandler]
 
 ---
@@ -57,7 +60,7 @@ flowchart LR
 
 ---
 
-[^1]: Unityの仕様によりインスタンス起動時には`OnTriggerEnter`が反応せず、最初から判定に入っているものが加熱対象とならないのを回避するためのものです。<br>意図しない挙動が発生しうるため、最初から[IHeatableContentHandler]が判定に入っていない場合には設定しないことを推奨します。
+[^1]: Unityの仕様により、最初から判定に入っているオブジェクトが加熱の対象とならない現象を回避するための設定です。最初から[IHeatableContentHandler]が判定に入っていない場合は、意図しない挙動を防止するためオブジェクトを設定せずにご利用ください。
 
 
 

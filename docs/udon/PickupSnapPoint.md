@@ -6,7 +6,7 @@ nav_order: 10
 
 # PickupSnapPoint
 
-Pickupオブジェクトを手放したとき、その置かれた位置を補正するためのコンポーネントです。  
+Pickupオブジェクトを手放したとき、その置かれた位置を補正 (スナップ) するためのコンポーネントです。  
 [PickupSnapHandler]と連携して使います。
 
 ```mermaid
@@ -32,20 +32,25 @@ flowchart LR
 
 - 本コンポーネントと同時に以下のコンポーネントが必要です。
   - Collider系コンポーネント(`Is Trigger`オン)
-- [PickupSnapHandler]がCollider判定に入るとテレポート先を知らせます。
-  - その状態でPickupオブジェクトが手放されると、テレポート先へ移動します。
+- [PickupSnapHandler]がCollider判定に入ると、後述の設定に応じてスナップ先を知らせます。
+  - オブジェクトがCollider判定を抜けると、スナップ先から外れます。
 
 
 ## 設定項目
 
 | Settings | 説明 |
 | ---- | ---- |
-| Snap ID | スナップ対象となるIDを設定します。<br>一致するIDを持った[PickupSnapHandler]のみがスナップできます。<br>ただし`SnapID`が設定されていない場合には、全ての[PickupSnapHandler]がスナップします。 |
+| Snap ID | スナップ対象となるIDを設定します。<br>一致するIDを持った[PickupSnapHandler]のみがスナップできます。[^1] |
 
 
 ## 仕様詳細
 
-- [PickupSnapHandler]のテレポート先は、本コンポーネントが付与されているGameObjectのTransformと同じ位置です。設置する場所にはご注意ください。
+- [PickupSnapHandler]によるスナップは、本コンポーネントが付与されているGameObjectと同じ位置・角度へテレポートする形で行われます。本コンポーネントの設置場所にはご注意ください。
+- テレポート先の通知は`OnTriggerEnter/Exit`イベントによって行われます。
+
+---
+
+[^1]: ただし`SnapID`が設定されていない場合は、その設定に関わらず全ての[PickupSnapHandler]がスナップできます。
 
 
 

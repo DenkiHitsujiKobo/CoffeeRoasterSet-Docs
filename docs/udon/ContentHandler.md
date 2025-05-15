@@ -16,17 +16,20 @@ flowchart LR
 
     handler("<u>**ContentHandler**</u>")
     entity("INoneSyncPickupEntity")
+    proxy(["NoneSyncPickupProxy"])
     heatable("IHeatableContentHandler")
     sound(["ContentSoundHandler"])
 
     entity -->|継承| handler
+    entity -.->|依存| proxy
     handler -->|継承| heatable
-    handler -.->|依存| sound
+    handler <-.->|依存| sound
 ```
 
 ### 関連コンポーネント
 
 - [INoneSyncPickupEntity]
+  - [NoneSyncPickupProxy]
 - [IHeatableContentHandler]
 - [ContentSoundHandler]
 

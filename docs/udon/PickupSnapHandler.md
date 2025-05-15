@@ -6,8 +6,8 @@ nav_order: 9
 
 # PickupSnapHandler
 
-Pickupオブジェクトを手放したとき、その置かれた位置を補正するためのコンポーネントです。  
-[PickupSnapPoint]と組み合わせて使われます。
+Pickupオブジェクトを手放したとき、その置かれた位置を補正 (スナップ) するためのコンポーネントです。  
+[PickupSnapPoint]と連携して使います。
 
 ```mermaid
 flowchart LR
@@ -35,8 +35,7 @@ flowchart LR
   - VRCPickup
     - RigidBody
   - VRCObjectSync (任意)
-- [PickupSnapPoint]の判定に入っているときに手放されると、後述の設定に応じてPickupオブジェクトをテレポートさせます。
-  - Pickupオブジェクトの位置を自動で合わせるための機能です。
+- [PickupSnapPoint]のCollider判定に入っているときに手放されると、後述の設定に応じて位置をスナップします。
 
 
 ## 設定項目
@@ -44,15 +43,18 @@ flowchart LR
 | Settings | 説明 |
 | ---- | ---- |
 | Snap ID | スナップ対象となるIDを設定します。<br>一致するIDを持った[PickupSnapPoint]にのみスナップします。[^1] |
-| Point | インスタンス起動時からスナップ対象となる[PickupSnapPoint]を設定します。[^2] |
+| Point | 最初から判定に入っている[PickupSnapPoint]を設定します。[^2] |
 
 
 ## 仕様詳細
 
+- オブジェクトのスナップは`VRCPickup::Teleport(...)`によって行われます。
+  - テレポート先は、[PickupSnapPoint]が付与されたGameObjectと同じ位置・角度です。
+
 ---
 
-[^1]: ただし`SnapID`が設定されていない[PickupSnapPoint]には、本コンポーネントの`SnapID`にかかわらずスナップします。
-[^2]: Unityの仕様によりインスタンス起動時には`OnTriggerEnter`が反応せず、最初から判定に入っているものがスナップ対象とならないのを回避するためのものです。<br>最初から[PickupSnapPoint]の判定に入っていない場合には設定しないことを推奨します。
+[^1]: ただし`SnapID`が設定されていない[PickupSnapPoint]には、本コンポーネントの`SnapID`に関わらずスナップします。
+[^2]: Unityの仕様により、最初から判定に入っているオブジェクトがスナップ対象とならない現象を回避するための設定です。最初から[PickupSnapPoint]の判定に入っていない場合は、意図しない挙動を防止するためオブジェクトを設定せずにご利用ください。
 
 
 

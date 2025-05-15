@@ -19,11 +19,18 @@ flowchart LR
     handler("ContentHandler")
     heat("HeatSource")
     proxy(["NoneSyncPickupProxy"])
+
+    subgraph 派生クラス
+        direction TB
+        handler
+        heat
+    end
     
     behaviour -->|継承| entity
-    entity -->|継承| handler
-    entity -->|継承| heat
-    proxy <-.->|依存| entity
+    %% entity -->|継承| handler
+    %% entity -->|継承| heat
+    entity -->|継承| 派生クラス
+    entity <-.->|依存| proxy
 ```
 
 ### 関連コンポーネント
