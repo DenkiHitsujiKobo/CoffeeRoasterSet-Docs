@@ -16,11 +16,13 @@ flowchart LR
 
     roaster("<u>**HandyRoaster**</u>")
     %% handler("ContentHandler")
+    %% sound(["ContentSoundHandler"])
     heatable("IHeatableContentHandler")
     heat(["HeatSource"])
     handle(["HandyRoasterHandle"])
 
     %% handler -->|継承| heatable
+    %% handler -.->|依存| sound
     heatable -->|継承| roaster
     heatable <-.->|依存| heat
     roaster <-.->|依存| handle
@@ -30,6 +32,7 @@ flowchart LR
 
 - [IHeatableContentHandler]
   - [ContentHandler]
+  - [ContentSoundHandler]
 - [HeatSource]
 - [HandyRoasterHandle]
 
@@ -41,6 +44,9 @@ flowchart LR
 
 ### [ContentHandler]と共通する機能
 
+- 本コンポーネントと同時に以下のコンポーネントが必要です。
+  - Collider系コンポーネント
+  - RigidBody (`Use Gravity`オフ、`Is Kinematic`オン)
 - [NoneSyncPickupProxy]を介してUseされると、中身をパーティクルとして出すことができます。
   - 再度UseすることでパーティクルのON/OFFを切り替えます。
   - 中身が入っていない場合、パーティクルは出せません。
@@ -56,13 +62,8 @@ flowchart LR
 
 ### 本コンポーネント特有の機能
 
-- 本コンポーネントと同時に以下のコンポーネントが必要です。
-  - Collider系コンポーネント
-  - RigidBody (`Use Gravity`オフ、`Is Kinematic`オン)
-  - AudioSource [^1]
-    - VRCSpatialAudioSource (任意)
 - 中身が生の豆である場合、かつ加熱されている間は焙煎が行えます。
-  - 焙煎できる状態になると、効果音と演出パーティクルが動作します。
+  - 焙煎できる状態になると、効果音と煙エフェクトが動作します。
 - 本コンポーネントに紐づいた[HandyRoasterHandle]をピックアップすると豆の焙煎が進みます。
   - 焙煎が進むのはハンドルがピックアップされている間のみです。
   - 途中でハンドルを手放すと、焙煎の進行度も途中で止まります。
@@ -77,24 +78,26 @@ flowchart LR
 
 | Components | 説明 |
 | ---- | ---- |
-| Handle | にょえ |
-| Pop Audio | にょえ |
-| Effects | にょえ |
+| Pop Audio | 焙煎でコーヒー豆が弾ける効果音を再生するためのAudioSourceを設定します。[^1][^2] |
+| Effects | 焙煎にともなう煙エフェクトを出すためのParticleSystemを設定します。 |
 
 | Settings | 説明 |
 | ---- | ---- |
-| nyoe | にょえ |
+| Roast Time | コーヒー豆の焙煎にかかる時間 (float型 単位:秒) を設定します。 |
 
 
 ## 仕様詳細
 
-- にょえ
+各継承元スクリプトの仕様詳細も合わせてご参照ください。
 
-その他の仕様詳細については、継承元スクリプトの各説明も合わせてご参照ください。
+- 効果音の再生は`AudioSource::Play()`で行われます。
 
 ---
 
-[^1]: 設定項目の`Components/Pop Audio`に設定されれば、別オブジェクトに付与されていても構いません。
+### 注釈
+
+[^1]: AudioSourceは別オブジェクトに付与されていても構いません。
+[^2]: 再生したい音源(AudioClip)は、該当のAudioSource側で設定してください。
 
 
 

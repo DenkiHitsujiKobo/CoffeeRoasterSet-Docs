@@ -23,7 +23,7 @@ flowchart LR
     entity -->|継承| handler
     entity -.->|依存| proxy
     handler -->|継承| heatable
-    handler <-.->|依存| sound
+    handler -.->|依存| sound
 ```
 
 ### 関連コンポーネント
@@ -53,8 +53,8 @@ flowchart LR
 
 | Components | 説明 |
 | ---- | ---- |
-| Animator | 状態に応じた見た目の制御を行うためのアニメーターを設定します。 |
-| Particle | 内容物の受け渡し判定に使うためのパーティクルシステムを設定します。 |
+| Animator | 状態に応じた見た目の制御を行うためのAnimatorを設定します。 |
+| Particle | 内容物の受け渡し判定に使うためのParticleSystemを設定します。 |
 | Sound Handler | 中身に応じた効果音を再生するためのUdonコンポーネントを設定します。<br>詳細は[ContentSoundHandler]をご覧ください。 |
 
 | Settings | 説明 |

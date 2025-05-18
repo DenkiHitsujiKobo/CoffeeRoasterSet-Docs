@@ -42,7 +42,7 @@ flowchart LR
 
 | Settings | 説明 |
 | ---- | ---- |
-| Snap ID | スナップ対象となるIDを設定します。<br>一致するIDを持った[PickupSnapPoint]にのみスナップします。[^1] |
+| Snap ID | スナップ対象となるIDを設定します。<br>一致するIDを持った[PickupSnapPoint]にのみスナップできます。[^1] |
 | Point | 最初から判定に入っている[PickupSnapPoint]を設定します。[^2] |
 
 
@@ -53,7 +53,9 @@ flowchart LR
 
 ---
 
-[^1]: ただし`SnapID`が設定されていない[PickupSnapPoint]には、本コンポーネントの`SnapID`に関わらずスナップします。
+### 注釈
+
+[^1]: ただし`SnapID`が設定されていない[PickupSnapPoint]には、本コンポーネントの`SnapID`を無視してスナップします。
 [^2]: Unityの仕様により、最初から判定に入っているオブジェクトがスナップ対象とならない現象を回避するための設定です。最初から[PickupSnapPoint]の判定に入っていない場合は、意図しない挙動を防止するためオブジェクトを設定せずにご利用ください。
 
 

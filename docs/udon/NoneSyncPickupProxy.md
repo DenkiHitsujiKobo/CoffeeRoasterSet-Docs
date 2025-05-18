@@ -42,7 +42,7 @@ NoneSyncPickupProxyはイベントの呼び出し機能を実装するコンポ�
 - 本コンポーネントと同時に以下のコンポーネントが必要です。
   - VRCPickup
     - RigidBody
-- 以下のPickupオブジェクト関連イベントに反応します。
+- 以下のPickupオブジェクト関連イベントに反応して、対応する[INoneSyncPickupEntity]の関数をローカルで呼び出します。
   - `OnPickup()`: Pickupオブジェクトを持ったとき
   - `OnDrop()`: Pickupオブジェクトを手放したとき
   - `OnPickupUseDown()`: Pickupオブジェクトを持って、トリガーを引いたとき
