@@ -9,4 +9,5 @@ permalink: /docs/changelog
 
 本アセットのアップデート履歴です。
 
+- 2025-05-xx: アセット発売
 
