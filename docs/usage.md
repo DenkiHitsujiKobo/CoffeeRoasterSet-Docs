@@ -28,9 +28,8 @@ WIP: ここにフォルダパスを書く
 - [CoffeeCoolerSet]
 - [CoffeeCanister]
 
-設置例
-
-WIP: Prefabが設置してある様子の画像
+設置例  
+![picture on Unity editor](/assets/images/usage01.png)
 
 以上で基本的なセットアップは完了です。  
 ワールドをアップロードする、またはUnityエディタ上のClientSimを使って、ギミックが機能することをご確認ください。
@@ -100,7 +99,7 @@ WIP: 缶に入った焙煎豆の画像
 
 
 
-[Booth item page]: https://cultnhut.booth.pm/
+[Booth item page]: https://cultnhut.booth.pm/items/6861803
 
 [AlcoholLamp]: /docs/prefabs/AlcoholLamp
 [CoffeeCanister]: /docs/prefabs/CoffeeCanister

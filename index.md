@@ -11,6 +11,8 @@ permalink: /
 『CoffeeRoasterSet』はコーヒー豆の手焙煎ができるギミックを備えた、VRChatワールド専用の有償アセットです。  
 本ページでギミックの使用方法をご覧いただけます。
 
+<img src="/assets/images/thumbnail.png" width="480px">
+
 
 ## 販売ページ
 
@@ -31,7 +33,7 @@ CoffeeRoasterSetはこちらの[Booth販売ページ] [Booth item page]からご
 
 
 
-[Booth item page]: https://cultnhut.booth.pm/
+[Booth item page]: https://cultnhut.booth.pm/items/6861803
 [usage]: /docs/usage
 [applications]: /docs/applications
 
