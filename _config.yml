@@ -17,6 +17,9 @@ repository: DenkiHitsujiKobo/CoffeeSystem-Docs  # TODO: あとでリポジトリ
 # 各ページのパーマリンク生成方法を指定
 permalink: pretty
 
+# ファビコン指定
+favicon_ico: "/assets/images/favicon.ico"
+
 
 ##############################
 # ページ構成
