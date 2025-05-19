@@ -29,7 +29,7 @@ WIP: ここにフォルダパスを書く
 - [CoffeeCanister]
 
 設置例  
-![picture on Unity editor](/assets/images/usage01.png)
+<img src="/assets/images/usage/usage01.png" width="80%" alt="picture on Unity editor">
 
 以上で基本的なセットアップは完了です。  
 ワールドをアップロードする、またはUnityエディタ上のClientSimを使って、ギミックが機能することをご確認ください。
@@ -45,7 +45,7 @@ WIP: ここにフォルダパスを書く
 生コーヒー豆の袋([JuteBag])を持ってUseすると、生のコーヒー豆が出てきます。  
 これを焙煎機のシリンダー([RoasterPickup])に当てて、豆を注ぎこみます。
 
-WIP: 生の豆を注ぐ画像
+<img src="/assets/images/usage/usage02.png" width="80%" alt="picture on vrchat, player is pouring raw beans into the roaster.">
 
 豆を入れたのち、シリンダーをスタンドに戻します。
 
@@ -55,15 +55,15 @@ WIP: 生の豆を注ぐ画像
 ランプに火が点いた状態で、焙煎機スタンドの下に置いてください。  
 シリンダーが加熱されていれば、両脇から湯気が出ます。
 
-WIP: 湯気の出ている画像
+<img src="/assets/images/usage/usage03.png" width="80%" alt="picture on vrchat, the roaster with rising smoke.">
 
 シリンダーを加熱している状態でハンドルを回すと、コーヒー豆の焙煎が進みます。  
 
-WIP: ハンドルを回している画像
+<img src="/assets/images/usage/usage04.png" width="80%" alt="picture on vrchat, player is turning the roaster.">
 
 シリンダーの小窓から見える豆の色が、白から茶色へ変わっていれば焙煎は完了です。
 
-WIP: 焙煎完了前後の画像
+<img src="/assets/images/usage/usage05.png" width="80%" alt="picture on vrchat, the roaster before roasting and after.">
 
 {: .note}
 焙煎の所要時間は設定で変更することが可能です。  
@@ -73,17 +73,17 @@ WIP: 焙煎完了前後の画像
 
 シリンダーに入っている豆を冷却器([Colander])へ移し、風を当てて冷やします。
 
-WIP: Colanderへ豆を注いでいる画像
+<img src="/assets/images/usage/usage06.png" width="80%" alt="picture on vrchat, player is pouring roasted beans into the colander.">
 
 {: .highlight }
-現在のところ、実際に豆の温度などを管理する機能は本アセットに実装されていません。  
+現在のところ、実際に豆の温度などを管理する機能はギミック内に実装されていません。  
 コーヒー焙煎の過程を楽しむ演出としてご利用ください。
 
 ### 2-4. 豆の保管
 
 クーラーで冷やした豆を、缶容器([CoffeeCanister])に移して保存します。
 
-WIP: 缶に入った焙煎豆の画像
+<img src="/assets/images/usage/usage07.png" width="80%" alt="picture on vrchat, player is pouring roasted beans into the canister.">
 
 以上でコーヒー豆の焙煎は完了です。
 
