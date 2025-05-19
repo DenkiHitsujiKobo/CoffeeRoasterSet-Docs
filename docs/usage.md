@@ -12,7 +12,7 @@ permalink: /docs/usage
 
 ## 0. UnityPackageのインポート
 
-[販売ページ] [Booth item page]から購入・ダウンロードしたUnityPackageを、ご自身のVRChat用ワールドが入ったUnityプロジェクトへインポートしてください。
+<a href="https://cultnhut.booth.pm/items/6861803" target="_blank" rel="noopener noreferrer">販売ページ</a>から購入・ダウンロードしたUnityPackageを、ご自身のVRChat用ワールドが入ったUnityプロジェクトへインポートしてください。
 
 インポート後、以下のファイル類が`Assets`フォルダ以下に作成されます。
 
@@ -98,8 +98,6 @@ WIP: ここにフォルダパスを書く
 今後のアップデートで実装予定です。
 
 
-
-[Booth item page]: https://cultnhut.booth.pm/items/6861803
 
 [AlcoholLamp]: /docs/prefabs/AlcoholLamp
 [CoffeeCanister]: /docs/prefabs/CoffeeCanister

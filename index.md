@@ -16,7 +16,7 @@ permalink: /
 
 ## 販売ページ
 
-CoffeeRoasterSetはこちらの[Booth販売ページ] [Booth item page]からご購入いただけます。
+CoffeeRoasterSetはこちらの<a href="https://cultnhut.booth.pm/items/6861803" target="_blank" rel="noopener noreferrer">Booth販売ページ</a>からご購入いただけます。  
 ダウンロードしたUnityPackageをご自身のUnity Projectへインポートしてご利用ください。
 
 
@@ -33,7 +33,6 @@ CoffeeRoasterSetはこちらの[Booth販売ページ] [Booth item page]からご
 
 
 
-[Booth item page]: https://cultnhut.booth.pm/items/6861803
 [usage]: /docs/usage
 [applications]: /docs/applications
 
