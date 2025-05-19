@@ -78,7 +78,7 @@ flowchart LR
 
 | Components | 説明 |
 | ---- | ---- |
-| Pop Audio | 焙煎でコーヒー豆が弾ける効果音を再生するためのAudioSourceを設定します。[^1][^2] |
+| Pop Audio | 焙煎でコーヒー豆が弾ける効果音を再生するためのAudioSourceを設定します。[^1] [^2] |
 | Effects | 焙煎にともなう煙エフェクトを出すためのParticleSystemを設定します。 |
 
 | Settings | 説明 |

@@ -50,6 +50,8 @@ flowchart LR
 
 ---
 
+### 注釈
+
 [^1]: ただし本コンポーネントの`Snap ID`が設定されていない場合は、全ての[PickupSnapHandler]が`Snap ID`を無視してスナップします。
 
 
