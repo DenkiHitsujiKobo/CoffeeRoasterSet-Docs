@@ -6,9 +6,10 @@ nav_order: 1
 
 # AlcoholLamp
 
-コーヒー豆の焙煎に使う、加熱用のアルコールランプです。
+コーヒー豆の焙煎に使う加熱用のアルコールランプです。  
+他の関連Prefabと一緒に、[RoasterSet]に同梱されています。
 
-WIP: ここに画像を載せる
+<img src="/assets/images/prefabs/AlcoholLamp.png" width="30%" alt="picture of alcohol lamp.">
 
 
 ## 使いかた
@@ -17,7 +18,7 @@ WIP: ここに画像を載せる
 - Useすることでランプが点火します。
   - 再度Useすることで点火/消火を切り替えます。
 - 点火した状態で[RoasterPickup]の下に置くと、シリンダーの中に入っている生の豆を加熱します。
-- [RoasterBase]の下で手離すと、適切な位置にスナップします。
+- [RoasterBase]の下で手離すと、適切な位置に補正されます。
 
 
 ## 設定項目
@@ -30,8 +31,9 @@ WIP: ここに画像を載せる
 
 
 
-[RoasterPickup]: /docs/prefabs/RoasterSet/RoasterPickup
-[RoasterBase]: /docs/prefabs/RoasterSet/RoasterBase
+[RoasterSet]: /docs/prefabs/RoasterSet
+[RoasterPickup]: /docs/prefabs/RoasterPickup
+[RoasterBase]: /docs/prefabs/RoasterBase
 [PickupSnapHandler]: /docs/udon/PickupSnapHandler/
 [HeatSource]: /docs/udon/HeatSource
 

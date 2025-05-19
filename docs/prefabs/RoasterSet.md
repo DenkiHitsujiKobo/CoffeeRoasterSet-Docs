@@ -8,12 +8,12 @@ nav_order: 10
 
 コーヒー豆の焙煎機一式をまとめたPrefabです。
 
-WIP: ここに画像を載せる
+<img src="/assets/images/prefabs/RoasterSet.png" width="50%" alt="picture of handy roaster.">
 
 
 ## 使いかた
 
-Prefabに同梱されている各アイテムの説明をご覧ください。
+同梱されている各Prefabの説明をご覧ください。
 
 - [AlcoholLamp]
 - [RoasterBase]

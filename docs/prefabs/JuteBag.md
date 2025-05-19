@@ -8,7 +8,7 @@ nav_order: 6
 
 生のコーヒー豆がつまった麻袋です。
 
-WIP: ここに画像を載せる
+<img src="/assets/images/prefabs/JuteBag.png" width="30%" alt="picture of jute bag.">
 
 
 ## 使いかた

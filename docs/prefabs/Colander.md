@@ -6,9 +6,10 @@ nav_order: 5
 
 # Colander
 
-焙煎したコーヒー豆を冷やすための、冷却器に乗せる金属ザルです。
+焙煎したコーヒー豆を冷やすための、冷却器に乗せる金属ザルです。  
+他の関連Prefabと一緒に、[CoffeeCoolerSet]に同梱されています。
 
-WIP: ここに画像を載せる
+<img src="/assets/images/prefabs/Colander.png" width="50%" alt="picture of colander.">
 
 
 ## 使いかた
@@ -24,7 +25,7 @@ WIP: ここに画像を載せる
 - [CoffeeCooler]の近くで手放すと、真上に乗るように位置が補正されます。
 
 {: .highlight }
-現在のところ、実際に豆の温度などを管理する機能は本アセットに実装されていません。  
+現在のところ、実際に豆の温度などを管理する機能はギミック内に実装されていません。  
 コーヒー焙煎の過程を楽しむ演出としてご利用ください。
 
 
@@ -38,6 +39,7 @@ WIP: ここに画像を載せる
 
 
 
+[CoffeeCoolerSet]: /docs/prefabs/CoffeeCoolerSet
 [CoffeeCooler]: /docs/prefabs/CoffeeCooler
 [ContentHandler]: /docs/udon/ContentHandler
 [ContentSoundHandler]: /docs/udon/ContentSoundHandler

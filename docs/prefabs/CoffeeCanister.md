@@ -8,6 +8,7 @@ nav_order: 2
 
 コーヒー豆を保存する缶容器です。
 
+<img src="/assets/images/prefabs/CoffeeCanister.png" width="25%" alt="picture of coffee canister.">
 
 ## 使いかた
 

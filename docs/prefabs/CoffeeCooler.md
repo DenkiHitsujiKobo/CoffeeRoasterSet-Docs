@@ -6,9 +6,10 @@ nav_order: 3
 
 # CoffeeCooler
 
-焙煎したコーヒー豆を冷やすための冷却器です。
+焙煎したコーヒー豆を冷やすための冷却器です。  
+他の関連Prefabと一緒に、[CoffeeCoolerSet]に同梱されています。
 
-WIP: ここに画像を載せる
+<img src="/assets/images/prefabs/CoffeeCooler.png" width="50%" alt="picture of coffee cooler.">
 
 
 ## 使いかた
@@ -17,7 +18,7 @@ WIP: ここに画像を載せる
 - [Colander]を近くで手放すと、真上に乗るよう位置を補正します。
 
 {: .highlight }
-現在のところ、実際に豆の温度などを管理する機能は本アセットに実装されていません。  
+現在のところ、実際に豆の温度などを管理する機能はギミック内に実装されていません。  
 コーヒー焙煎の過程を楽しむ演出としてご利用ください。
 
 
@@ -29,7 +30,7 @@ WIP: ここに画像を載せる
 - RoasterBase/SnapPoint_colander: [PickupSnapPoint]
 
 
-
+[CoffeeCoolerSet]: /docs/prefabs/CoffeeCoolerSet
 [Colander]: /docs/prefabs/Colander
 [PickupSnapPoint]: /docs/udon/PickupSnapPoint
 

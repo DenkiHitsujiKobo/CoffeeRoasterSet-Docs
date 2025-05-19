@@ -6,9 +6,10 @@ nav_order: 9
 
 # RoasterPickup
 
-コーヒー豆を焙煎する、手動焙煎機のシリンダー部分です。
+コーヒー豆を焙煎する手動焙煎機のシリンダー部分です。  
+他の関連Prefabと一緒に、[RoasterSet]に同梱されています。
 
-WIP: ここに画像を載せる
+<img src="/assets/images/prefabs/RoasterPickup.png" width="50%" alt="picture of roaster cylinder.">
 
 
 ## 使いかた
@@ -38,6 +39,7 @@ WIP: ここに画像を載せる
 
 
 
+[RoasterSet]: /docs/prefabs/RoasterSet
 [RoasterBase]: /docs/prefabs/RoasterBase
 [AlcoholLamp]: /docs/prefabs/AlcoholLamp
 [HandyRoaster]: /docs/udon/HandyRoaster
