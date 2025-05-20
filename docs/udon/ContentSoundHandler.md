@@ -31,7 +31,7 @@ flowchart LR
 ## 機能について
 
 - 本コンポーネントと同時に以下のコンポーネントが必要です。
-  - AudioSource [^1]
+  - AudioSource
     - VRCSpatialAudioSource (任意)
 - [ContentHandler]が中身を受け入れたときにイベントが呼び出され、その中身の種類に応じた効果音を再生します。
 
@@ -40,7 +40,7 @@ flowchart LR
 
 | Components | 説明 |
 | ---- | ---- |
-| Audio | 音源の再生に使うためのAudioSourceを設定します。 |
+| Audio | 音源の再生に使うためのAudioSourceを設定します。[^1] |
 
 | Sound | 説明 |
 | ---- | ---- |
@@ -52,7 +52,7 @@ flowchart LR
 
 | Options | 説明 |
 | ---- | ---- |
-| Volume | 再生時の音量を設定します。 |
+| Volume | 効果音を再生するときの音量を設定します。[^2] 値の範囲はfloat値で0.0~1.0です。 |
 
 
 ## 仕様詳細
@@ -65,7 +65,8 @@ flowchart LR
 
 ### 注釈
 
-[^1]: 設定項目の`Components/Audio`に設定されれば、別オブジェクトに付与されていても構いません。
+[^1]: AudioSourceは別オブジェクトに付与されていても構いません。
+[^2]: AudioSourceと同時に付与する、VRCSpacialAudioSourceのGain値も音量に影響します。音量を変更する際は両方のパラメータを適切に設定し、実際にVRChat上で試聴のうえご利用ください。
 
 
 

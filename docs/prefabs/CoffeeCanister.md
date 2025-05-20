@@ -24,7 +24,7 @@ nav_order: 2
 
 ## 設定項目
 
-以下のコンポーネントが設定できます。  
+以下の項目が設定できます。  
 詳細は各コンポーネントの解説ページをご覧ください。
 
 - CoffeeCanister/System: [ContentHandler]

@@ -7,7 +7,7 @@ nav_order: 5
 # Colander
 
 焙煎したコーヒー豆を冷やすための、冷却器に乗せる金属ザルです。  
-他の関連Prefabと一緒に、[CoffeeCoolerSet]に同梱されています。
+ほかの関連Prefabと一緒に、[CoffeeCoolerSet]に同梱されています。
 
 <img src="/assets/images/prefabs/Colander.png" width="50%" alt="picture of colander.">
 
