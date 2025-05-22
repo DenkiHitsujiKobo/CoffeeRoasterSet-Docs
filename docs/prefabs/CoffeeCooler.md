@@ -9,7 +9,7 @@ nav_order: 3
 焙煎したコーヒー豆を冷やすための冷却器です。  
 ほかの関連Prefabと一緒に、[CoffeeCoolerSet]に同梱されています。
 
-<img src="/assets/images/prefabs/CoffeeCooler.png" width="50%" alt="picture of coffee cooler.">
+<img src="{{site.baseurl}}/assets/images/prefabs/CoffeeCooler.png" width="50%" alt="picture of coffee cooler.">
 
 
 ## 使いかた

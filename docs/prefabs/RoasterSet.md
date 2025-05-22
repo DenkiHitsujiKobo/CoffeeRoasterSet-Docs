@@ -8,7 +8,7 @@ nav_order: 10
 
 コーヒー豆の焙煎機一式をまとめたPrefabです。
 
-<img src="/assets/images/prefabs/RoasterSet.png" width="50%" alt="picture of handy roaster.">
+<img src="{{site.baseurl}}/assets/images/prefabs/RoasterSet.png" width="50%" alt="picture of handy roaster.">
 
 
 ## 使いかた

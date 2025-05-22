@@ -9,7 +9,7 @@ nav_order: 1
 コーヒー豆の焙煎に使う加熱用のアルコールランプです。  
 ほかの関連Prefabと一緒に、[RoasterSet]に同梱されています。
 
-<img src="/assets/images/prefabs/AlcoholLamp.png" width="30%" alt="picture of alcohol lamp.">
+<img src="{{site.baseurl}}/assets/images/prefabs/AlcoholLamp.png" width="30%" alt="picture of alcohol lamp.">
 
 
 ## 使いかた

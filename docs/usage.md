@@ -28,7 +28,7 @@ permalink: /docs/usage
 - [CoffeeCanister]
 
 <figure style="text-align: center;">
-<img src="/assets/images/usage/usage01.png" width="80%" alt="picture on Unity editor" />
+<img src="{{site.baseurl}}/assets/images/usage/usage01.png" width="80%" alt="picture on Unity editor" />
 <figcaption>設置例</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ permalink: /docs/usage
 これを焙煎機のシリンダー([RoasterPickup])に当てて、豆を注ぎこみます。
 
 <figure style="text-align: center;">
-<img src="/assets/images/usage/usage02.png" width="80%" alt="picture on vrchat, player is pouring raw beans into the roaster." />
+<img src="{{site.baseurl}}/assets/images/usage/usage02.png" width="80%" alt="picture on vrchat, player is pouring raw beans into the roaster." />
 </figure>
 
 豆を入れたのち、シリンダーをスタンドに戻します。
@@ -59,19 +59,19 @@ permalink: /docs/usage
 シリンダーが加熱されていれば、両脇から湯気が出ます。
 
 <figure style="text-align: center;">
-<img src="/assets/images/usage/usage03.png" width="80%" alt="picture on vrchat, the roaster with rising smoke." />
+<img src="{{site.baseurl}}/assets/images/usage/usage03.png" width="80%" alt="picture on vrchat, the roaster with rising smoke." />
 </figure>
 
 シリンダーを加熱している状態でハンドルを回すと、コーヒー豆の焙煎が進みます。  
 
 <figure style="text-align: center;">
-<img src="/assets/images/usage/usage04.png" width="80%" alt="picture on vrchat, player is turning the roaster." />
+<img src="{{site.baseurl}}/assets/images/usage/usage04.png" width="80%" alt="picture on vrchat, player is turning the roaster." />
 </figure>
 
 シリンダーの小窓から見える豆の色が、白から茶色へ変わっていれば焙煎は完了です。
 
 <figure style="text-align: center;">
-<img src="/assets/images/usage/usage05.png" width="80%" alt="picture on vrchat, the roaster before roasting and after." />
+<img src="{{site.baseurl}}/assets/images/usage/usage05.png" width="80%" alt="picture on vrchat, the roaster before roasting and after." />
 </figure>
 
 {: .note}
@@ -83,7 +83,7 @@ permalink: /docs/usage
 シリンダーに入っている豆を冷却器([Colander])へ移し、風を当てて冷やします。
 
 <figure style="text-align: center;">
-<img src="/assets/images/usage/usage06.png" width="80%" alt="picture on vrchat, player is pouring roasted beans into the colander." />
+<img src="{{site.baseurl}}/assets/images/usage/usage06.png" width="80%" alt="picture on vrchat, player is pouring roasted beans into the colander." />
 </figure>
 
 {: .highlight }
@@ -95,7 +95,7 @@ permalink: /docs/usage
 クーラーで冷やした豆を、缶容器([CoffeeCanister])に移して保存します。
 
 <figure style="text-align: center;">
-<img src="/assets/images/usage/usage07.png" width="80%" alt="picture on vrchat, player is pouring roasted beans into the canister." />
+<img src="{{site.baseurl}}/assets/images/usage/usage07.png" width="80%" alt="picture on vrchat, player is pouring roasted beans into the canister." />
 </figure>
 
 以上でコーヒー豆の焙煎は完了です。

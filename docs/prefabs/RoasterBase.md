@@ -9,7 +9,7 @@ nav_order: 8
 コーヒー豆を焙煎する手動焙煎機のスタンド部分です。  
 ほかの関連Prefabと一緒に、[RoasterSet]に同梱されています。
 
-<img src="/assets/images/prefabs/RoasterBase.png" width="50%" alt="picture of roaster stand.">
+<img src="{{site.baseurl}}/assets/images/prefabs/RoasterBase.png" width="50%" alt="picture of roaster stand.">
 
 
 ## 使いかた

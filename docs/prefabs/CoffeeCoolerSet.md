@@ -8,7 +8,7 @@ nav_order: 4
 
 焙煎したコーヒー豆を冷ますのに使う機材一式をまとめたPrefabです。
 
-<img src="/assets/images/prefabs/CoffeeCoolerSet.png" width="50%" alt="picture of coffee cooler set.">
+<img src="{{site.baseurl}}/assets/images/prefabs/CoffeeCoolerSet.png" width="50%" alt="picture of coffee cooler set.">
 
 
 ## 使いかた

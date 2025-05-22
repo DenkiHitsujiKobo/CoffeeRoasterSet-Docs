@@ -9,7 +9,7 @@ nav_order: 9
 コーヒー豆を焙煎する手動焙煎機のシリンダー部分です。  
 ほかの関連Prefabと一緒に、[RoasterSet]に同梱されています。
 
-<img src="/assets/images/prefabs/RoasterPickup.png" width="50%" alt="picture of roaster cylinder.">
+<img src="{{site.baseurl}}/assets/images/prefabs/RoasterPickup.png" width="50%" alt="picture of roaster cylinder.">
 
 
 ## 使いかた
