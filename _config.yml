@@ -49,6 +49,7 @@ color_scheme: green
 callouts_level: quiet # or loud
 callouts:
   highlight:
+    title: Note
     color: yellow
   important:
     title: Important
