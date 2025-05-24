@@ -34,6 +34,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+      noindex: true
 
 # ページ右上の常設リンク定義
 aux_links:
