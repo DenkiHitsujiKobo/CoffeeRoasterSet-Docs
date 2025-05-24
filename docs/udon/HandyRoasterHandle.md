@@ -71,5 +71,5 @@ flowchart LR
 
 
 
-[HandyRoaster]: /docs/udon/HandyRoaster
+[HandyRoaster]: {{site.baseurl}}/docs/udon/HandyRoaster
 

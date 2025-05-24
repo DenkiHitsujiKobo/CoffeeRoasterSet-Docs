@@ -66,7 +66,7 @@ flowchart LR
 
 
 
-[INoneSyncPickupEntity]: /docs/udon/INoneSyncPickupEntity
-[NoneSyncPickupProxy]: /docs/udon/NoneSyncPickupProxy
-[IHeatableContentHandler]: /docs/udon/IHeatableContentHandler
+[INoneSyncPickupEntity]: {{site.baseurl}}/docs/udon/INoneSyncPickupEntity
+[NoneSyncPickupProxy]: {{site.baseurl}}/docs/udon/NoneSyncPickupProxy
+[IHeatableContentHandler]: {{site.baseurl}}/docs/udon/IHeatableContentHandler
 

@@ -112,13 +112,13 @@ permalink: /docs/usage
 
 
 
-[AlcoholLamp]: /docs/prefabs/AlcoholLamp
-[CoffeeCanister]: /docs/prefabs/CoffeeCanister
-[CoffeeCoolerSet]: /docs/prefabs/CoffeeCoolerSet
-[Colander]: /docs/prefabs/Colander
-[JuteBag]: /docs/prefabs/JuteBag
-[RoasterPickup]: /docs/prefabs/RoasterPickup
-[RoasterSet]: /docs/prefabs/RoasterSet
+[AlcoholLamp]: {{site.baseurl}}/docs/prefabs/AlcoholLamp
+[CoffeeCanister]: {{site.baseurl}}/docs/prefabs/CoffeeCanister
+[CoffeeCoolerSet]: {{site.baseurl}}/docs/prefabs/CoffeeCoolerSet
+[Colander]: {{site.baseurl}}/docs/prefabs/Colander
+[JuteBag]: {{site.baseurl}}/docs/prefabs/JuteBag
+[RoasterPickup]: {{site.baseurl}}/docs/prefabs/RoasterPickup
+[RoasterSet]: {{site.baseurl}}/docs/prefabs/RoasterSet
 
-[HandyRoaster]: /docs/udon/HandyRoaster
+[HandyRoaster]: {{site.baseurl}}/docs/udon/HandyRoaster
 

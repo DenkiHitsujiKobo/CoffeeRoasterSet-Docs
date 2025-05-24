@@ -70,5 +70,5 @@ flowchart LR
 
 
 
-[ContentHandler]: /docs/udon/ContentHandler
+[ContentHandler]: {{site.baseurl}}/docs/udon/ContentHandler
 

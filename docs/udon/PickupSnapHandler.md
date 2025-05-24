@@ -60,5 +60,5 @@ flowchart LR
 
 
 
-[PickupSnapPoint]: /docs/udon/PickupSnapPoint/
+[PickupSnapPoint]: {{site.baseurl}}/docs/udon/PickupSnapPoint/
 

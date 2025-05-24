@@ -101,10 +101,10 @@ flowchart LR
 
 
 
-[IHeatableContentHandler]: /docs/udon/IHeatableContentHandler
-[ContentHandler]: /docs/udon/ConentHandler
-[NoneSyncPickupProxy]: /docs/udon/NoneSyncPickupProxy
-[ContentSoundHandler]: /docs/udon/ContentSoundHandler
-[HeatSource]: /docs/udon/HeatSource
-[HandyRoasterHandle]: /docs/udon/HandyRoasterHandle
+[IHeatableContentHandler]: {{site.baseurl}}/docs/udon/IHeatableContentHandler
+[ContentHandler]: {{site.baseurl}}/docs/udon/ConentHandler
+[NoneSyncPickupProxy]: {{site.baseurl}}/docs/udon/NoneSyncPickupProxy
+[ContentSoundHandler]: {{site.baseurl}}/docs/udon/ContentSoundHandler
+[HeatSource]: {{site.baseurl}}/docs/udon/HeatSource
+[HandyRoasterHandle]: {{site.baseurl}}/docs/udon/HandyRoasterHandle
 

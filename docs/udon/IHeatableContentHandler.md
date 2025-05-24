@@ -52,7 +52,7 @@ flowchart LR
 
 
 
-[ContentHandler]: /docs/udon/ContentHandler
-[HandyRoaster]: /docs/udon/HandyRoaster
-[HeatSource]: /docs/udon/HeatSource
+[ContentHandler]: {{site.baseurl}}/docs/udon/ContentHandler
+[HandyRoaster]: {{site.baseurl}}/docs/udon/HandyRoaster
+[HeatSource]: {{site.baseurl}}/docs/udon/HeatSource
 

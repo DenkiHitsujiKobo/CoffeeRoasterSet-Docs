@@ -23,6 +23,6 @@ nav_order: 4
 コーヒー焙煎の過程を楽しむ演出としてご利用ください。
 
 
-[CoffeeCooler]: /docs/prefabs/CoffeeCooler
-[Colander]: /docs/prefabs/Colander
+[CoffeeCooler]: {{site.baseurl}}/docs/prefabs/CoffeeCooler
+[Colander]: {{site.baseurl}}/docs/prefabs/Colander
 

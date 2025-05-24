@@ -39,10 +39,10 @@ nav_order: 9
 
 
 
-[RoasterSet]: /docs/prefabs/RoasterSet
-[RoasterBase]: /docs/prefabs/RoasterBase
-[AlcoholLamp]: /docs/prefabs/AlcoholLamp
-[HandyRoaster]: /docs/udon/HandyRoaster
-[ContentHandler]: /docs/udon/ContentHandler
-[ContentSoundHandler]: /docs/udon/ContentSoundHandler
+[RoasterSet]: {{site.baseurl}}/docs/prefabs/RoasterSet
+[RoasterBase]: {{site.baseurl}}/docs/prefabs/RoasterBase
+[AlcoholLamp]: {{site.baseurl}}/docs/prefabs/AlcoholLamp
+[HandyRoaster]: {{site.baseurl}}/docs/udon/HandyRoaster
+[ContentHandler]: {{site.baseurl}}/docs/udon/ContentHandler
+[ContentSoundHandler]: {{site.baseurl}}/docs/udon/ContentSoundHandler
 

@@ -29,8 +29,8 @@ nav_order: 8
 
 
 
-[RoasterSet]: /docs/prefabs/RoasterSet
-[RoasterPickup]: /docs/prefabs/RoasterPickup
-[AlcoholLamp]: /docs/prefabs/AlcoholLamp
-[PickupSnapPoint]: /docs/udon/PickupSnapPoint
+[RoasterSet]: {{site.baseurl}}/docs/prefabs/RoasterSet
+[RoasterPickup]: {{site.baseurl}}/docs/prefabs/RoasterPickup
+[AlcoholLamp]: {{site.baseurl}}/docs/prefabs/AlcoholLamp
+[PickupSnapPoint]: {{site.baseurl}}/docs/udon/PickupSnapPoint
 

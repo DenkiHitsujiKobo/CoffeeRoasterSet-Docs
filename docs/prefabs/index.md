@@ -2,7 +2,7 @@
 title: Prefabs
 nav_order: 3
 description: "About Prefabs"
-permalink: /docs/prefabs
+permalink: {{site.baseurl}}/docs/prefabs
 ---
 
 # Prefabs

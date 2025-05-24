@@ -2,7 +2,7 @@
 title: Udonコンポーネント
 nav_order: 4
 description: "About Udon Components"
-permalink: /docs/udon
+permalink: {{site.baseurl}}/docs/udon
 ---
 
 # Udonコンポーネント

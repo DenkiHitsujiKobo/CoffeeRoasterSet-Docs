@@ -30,7 +30,7 @@ nav_order: 3
 - RoasterBase/SnapPoint_colander: [PickupSnapPoint]
 
 
-[CoffeeCoolerSet]: /docs/prefabs/CoffeeCoolerSet
-[Colander]: /docs/prefabs/Colander
-[PickupSnapPoint]: /docs/udon/PickupSnapPoint
+[CoffeeCoolerSet]: {{site.baseurl}}/docs/prefabs/CoffeeCoolerSet
+[Colander]: {{site.baseurl}}/docs/prefabs/Colander
+[PickupSnapPoint]: {{site.baseurl}}/docs/udon/PickupSnapPoint
 

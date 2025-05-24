@@ -42,6 +42,6 @@ nav_order: 2
 
 
 
-[ContentHandler]: /docs/udon/ContentHandler
-[ContentSoundHandler]: /docs/udon/ContentSoundHandler
+[ContentHandler]: {{site.baseurl}}/docs/udon/ContentHandler
+[ContentSoundHandler]: {{site.baseurl}}/docs/udon/ContentSoundHandler
 

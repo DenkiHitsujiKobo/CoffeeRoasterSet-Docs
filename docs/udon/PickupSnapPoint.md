@@ -56,5 +56,5 @@ flowchart LR
 
 
 
-[PickupSnapHandler]: /docs/udon/PickupSnapHandler/
+[PickupSnapHandler]: {{site.baseurl}}/docs/udon/PickupSnapHandler/
 

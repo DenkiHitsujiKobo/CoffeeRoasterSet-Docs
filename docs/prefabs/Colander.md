@@ -39,8 +39,8 @@ nav_order: 5
 
 
 
-[CoffeeCoolerSet]: /docs/prefabs/CoffeeCoolerSet
-[CoffeeCooler]: /docs/prefabs/CoffeeCooler
-[ContentHandler]: /docs/udon/ContentHandler
-[ContentSoundHandler]: /docs/udon/ContentSoundHandler
+[CoffeeCoolerSet]: {{site.baseurl}}/docs/prefabs/CoffeeCoolerSet
+[CoffeeCooler]: {{site.baseurl}}/docs/prefabs/CoffeeCooler
+[ContentHandler]: {{site.baseurl}}/docs/udon/ContentHandler
+[ContentSoundHandler]: {{site.baseurl}}/docs/udon/ContentSoundHandler
 

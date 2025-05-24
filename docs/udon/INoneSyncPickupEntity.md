@@ -56,6 +56,6 @@ INoneSyncPickupEntityはメイン機能を実装するための抽象クラス�
 - [NoneSyncPickupProxy]との紐づけには、これを継承した派生コンポーネントを組み合わせてご利用ください。
 
 
-[NoneSyncPickupProxy]: /docs/udon/NoneSyncPickupProxy
-[ContentHandler]: /docs/udon/ContentHandler
-[HeatSource]: /docs/udon/HeatSource
+[NoneSyncPickupProxy]: {{site.baseurl}}/docs/udon/NoneSyncPickupProxy
+[ContentHandler]: {{site.baseurl}}/docs/udon/ContentHandler
+[HeatSource]: {{site.baseurl}}/docs/udon/HeatSource

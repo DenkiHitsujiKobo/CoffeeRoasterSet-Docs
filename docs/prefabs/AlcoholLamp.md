@@ -31,9 +31,9 @@ nav_order: 1
 
 
 
-[RoasterSet]: /docs/prefabs/RoasterSet
-[RoasterPickup]: /docs/prefabs/RoasterPickup
-[RoasterBase]: /docs/prefabs/RoasterBase
-[PickupSnapHandler]: /docs/udon/PickupSnapHandler/
-[HeatSource]: /docs/udon/HeatSource
+[RoasterSet]: {{site.baseurl}}/docs/prefabs/RoasterSet
+[RoasterPickup]: {{site.baseurl}}/docs/prefabs/RoasterPickup
+[RoasterBase]: {{site.baseurl}}/docs/prefabs/RoasterBase
+[PickupSnapHandler]: {{site.baseurl}}/docs/udon/PickupSnapHandler/
+[HeatSource]: {{site.baseurl}}/docs/udon/HeatSource
 

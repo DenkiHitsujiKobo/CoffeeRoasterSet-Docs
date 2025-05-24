@@ -125,8 +125,8 @@ flowchart LR
 
 
 
-[INoneSyncPickupEntity]: /docs/udon/INoneSyncPickupEntity
-[IHeatableContentHandler]: /docs/udon/IHeatableContentHandler
-[NoneSyncPickupProxy]: /docs/udon/NoneSyncPickupProxy
-[ContentSoundHandler]: /docs/udon/ContentSoundHandler
+[INoneSyncPickupEntity]: {{site.baseurl}}/docs/udon/INoneSyncPickupEntity
+[IHeatableContentHandler]: {{site.baseurl}}/docs/udon/IHeatableContentHandler
+[NoneSyncPickupProxy]: {{site.baseurl}}/docs/udon/NoneSyncPickupProxy
+[ContentSoundHandler]: {{site.baseurl}}/docs/udon/ContentSoundHandler
 

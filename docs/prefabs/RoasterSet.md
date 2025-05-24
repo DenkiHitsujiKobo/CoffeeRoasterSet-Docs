@@ -21,7 +21,7 @@ nav_order: 10
 
 
 
-[AlcoholLamp]: /docs/prefabs/AlcoholLamp
-[RoasterBase]: /docs/prefabs/RoasterBase
-[RoasterPickup]: /docs/prefabs/RoasterPickup
+[AlcoholLamp]: {{site.baseurl}}/docs/prefabs/AlcoholLamp
+[RoasterBase]: {{site.baseurl}}/docs/prefabs/RoasterBase
+[RoasterPickup]: {{site.baseurl}}/docs/prefabs/RoasterPickup
 

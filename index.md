@@ -33,6 +33,6 @@ CoffeeRoasterSetはこちらの<a href="https://cultnhut.booth.pm/items/6861803"
 
 
 
-[usage]: /docs/usage
-[applications]: /docs/applications
+[usage]: {{site.baseurl}}/docs/usage
+[applications]: {{site.baseurl}}/docs/applications
 

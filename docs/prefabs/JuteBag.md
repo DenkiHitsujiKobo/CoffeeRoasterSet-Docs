@@ -29,5 +29,5 @@ nav_order: 6
 
 
 
-[ContentHandler]: /docs/udon/ContentHandler
+[ContentHandler]: {{site.baseurl}}/docs/udon/ContentHandler
 

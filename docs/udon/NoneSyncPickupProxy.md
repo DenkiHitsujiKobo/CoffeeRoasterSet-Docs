@@ -57,5 +57,5 @@ NoneSyncPickupProxyはイベントの呼び出し機能を実装するコンポ�
 
 
 
-[INoneSyncPickupEntity]: /docs/udon/INoneSyncPickupEntity
+[INoneSyncPickupEntity]: {{site.baseurl}}/docs/udon/INoneSyncPickupEntity
 
