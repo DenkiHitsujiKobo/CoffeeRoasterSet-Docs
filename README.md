@@ -3,7 +3,7 @@
 
 ここは、VRChat専用の有償アセット「CoffeeRoasterSet」の説明書ページ用リポジトリです。
 
-実際の説明書ページは<a href="https://denkihitsujikobo.github.io/CoffeeRoasterSet-Docs"" target="_blank" rel="noopener noreferrer">こちら</a> (別タブで開きます)
+実際の説明書ページは[こちら](https://denkihitsujikobo.github.io/CoffeeRoasterSet-Docs)
 
 ## 環境構築について
 
