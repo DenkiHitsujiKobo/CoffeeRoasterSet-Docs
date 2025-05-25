@@ -14,13 +14,13 @@ permalink: /docs/usage
 
 <a href="https://cultnhut.booth.pm/items/6861803" target="_blank" rel="noopener noreferrer">販売ページ</a>から購入・ダウンロードしたUnityPackageを、ご自身のVRChat用ワールドが入ったUnityプロジェクトへインポートしてください。
 
-インポート後、`Assets/DENKIHITSUJIKOBO/CoffeeRoasterSet/`フォルダにアセットが配置されます。
+インポートすると、`Assets/DENKIHITSUJIKOBO/RoasterSystem/`フォルダにアセットが配置されます。
 
 
 
 ## 1. Prefabの配置
 
-インポート先のフォルダより、以下のPrefabをお好きな数だけワールドに設置します。
+`RoasterSystem/Roasterprefabs`フォルダから、以下のPrefabをお好きな数だけワールドに設置します。
 
 - [JuteBag]
 - [RoasterSet]
